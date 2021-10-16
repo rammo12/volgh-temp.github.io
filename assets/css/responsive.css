@@ -1,0 +1,119 @@
+/*****========================
+====== Welcome Page Start ========*****/
+/* large tablet screen 991px */
+@media (max-width: 991px){
+    .dta h3{
+        font-size: 30px;
+    }
+    .dta h1{
+        font-size: 52px;
+    }
+
+    /* sidebar leftbar */
+    .left-menu{
+        display: none;
+        z-index: 9999;
+    }
+    .w3-button{
+        display: block;
+    }
+    .w3-close i{
+        color: #fff;
+        font-size: 25px;
+        position: relative;
+        right: -214px;
+    }
+    .w3-teal i{
+        font-size: 30px;
+    }
+    .w3-menu{
+        position: absolute;
+        top: 53px;
+        left: 48px;
+        z-index: 9;
+    }
+
+    /*=== Right Content Start ===*/
+    /* topbar */
+    .content-page{
+        margin-left: 0px;
+        padding: 25px 0;
+    }
+    .page-title-box{
+        padding-left: 45px;
+    }
+    .footer{
+        left: 0px;
+    }
+}
+
+@media (max-width: 767px){
+    .dta h3{
+        font-size: 25px;
+    }
+    .dta h1{
+        font-size: 42px;
+    }
+    .dta .btn-goto a{
+        padding: 10px 22px;
+        font-size: 14px;
+    }
+
+    /*=== Right Content Start ===*/
+    /* topbar */
+    .page-title-box{
+        padding-left: 45px;
+    }
+    .form-control{
+        width: 55%;
+    }
+    .app-search{
+        margin-right: -50px;
+    }
+}
+
+@media (max-width: 651px){
+    .navbar-custom{
+        display: block;
+        height: 150px;
+        text-align: center;
+    }
+    .list-unstyled{
+        top: 95px;
+        right: 0;
+        margin: 0 60px;
+    }
+    .form-control{
+        width: 100%;
+    }
+    .app-search{
+        margin-right: 0px;
+    }
+    .w3-menu{
+        top: 47px;
+    }
+    .header-title{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 520px){
+    /*== right sidebar */
+    .m-0{
+        font-size: 14px;
+    }
+    .dropdown-notify::before{
+        right: 105px;
+    }
+    .dropdown-notify{
+        right: -87px;
+    }
+    .img-fluid{
+        float: left;
+    }
+    .msg-text{
+        margin-top: 0;
+    }
+}
+/*****========================
+====== Welcome Page End ========*****/
